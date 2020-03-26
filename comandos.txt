@@ -1,0 +1,2 @@
+﻿Como para agrgar archivos a git hub: git add *
+

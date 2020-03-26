@@ -1,4 +1,53 @@
-﻿Como para agrgar archivos a git hub: git add *
+﻿INICIAR UN REPOSITORIO
+1)git init
+2)git add *
+3)git commit -m "primer subida"
+EJEMPLO:
+[master (root-commit) e8260d7] primer subida
+ 22 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ARQUITECTURA/Documento.doc
+ create mode 100644 ARQUITECTURA/Google Cloud Plataform.pptx
+ create mode 100644 ARQUITECTURA/PASOS PARA INSTALAR VIRTUALBOX.docx
+ create mode 100644 ARQUITECTURA/Que es Docker.pptx
+ create mode 100644 ARQUITECTURA/fotos/WhatsApp Image 2020-03-25 at 10.35.53 PM.jpeg
+ create mode 100644 ARQUITECTURA/fotos/WhatsApp Image 2020-03-25 at 10.36.04 PM.jpeg
+ create mode 100644 ARQUITECTURA/fotos/WhatsApp Image 2020-03-25 at 10.36.14 PM.jpeg
+ create mode 100644 ARQUITECTURA/fotos/WhatsApp Image 2020-03-25 at 10.38.15 PM (1).jpeg
+ create mode 100644 ARQUITECTURA/fotos/WhatsApp Image 2020-03-25 at 10.38.15 PM (2).jpeg
+ create mode 100644 ARQUITECTURA/fotos/WhatsApp Image 2020-03-25 at 10.38.15 PM.jpeg
+ create mode 100644 ARQUITECTURA/fotos/WhatsApp Image 2020-03-25 at 10.38.16 PM (1).jpeg
+ create mode 100644 ARQUITECTURA/fotos/WhatsApp Image 2020-03-25 at 10.38.16 PM.jpeg
+ create mode 100644 ARQUITECTURA/investigaciones.doc
+ create mode 100644 BASE DE DATOS/WhatsApp Image 2020-03-21 at 3.18.12 PM.jpeg
+ create mode 100644 BASE DE DATOS/WhatsApp Image 2020-03-21 at 3.18.13 PM (1).jpeg
+ create mode 100644 BASE DE DATOS/WhatsApp Image 2020-03-21 at 3.18.13 PM.jpeg
+ create mode 100644 BASE DE DATOS/WhatsApp Image 2020-03-21 at 3.18.14 PM (1).jpeg
+ create mode 100644 BASE DE DATOS/WhatsApp Image 2020-03-21 at 3.18.14 PM.jpeg
+ create mode 100644 BASE DE DATOS/WhatsApp Image 2020-03-21 at 3.18.15 PM.jpeg
+ create mode 100644 BASE DE DATOS/WhatsApp Image 2020-03-21 at 3.18.16 PM.jpeg
+ create mode 100644 BASE DE DATOS/WhatsApp Image 2020-03-21 at 3.18.17 PM.jpeg
+ create mode 100644 BASE DE DATOS/WhatsApp Image 2020-03-21 at 3.18.18 PM.jpeg
+
+4)git remote add origin https://github.com/Donbran95/Donbran95.git
+5)git push -u origin master
+EJEMPLO:
+Username for 'https://github.com': Donbran95
+Password for 'https://contrasena de cuenta de GIT HUB': 
+Counting objects: 27, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (27/27), 2.11 MiB | 525.00 KiB/s, done.
+Total 27 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Donbran95/Donbran95.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Fin..
+
+
+como ingresar archivos dentro de un mismo repositorio:
+
+Como para agrgar archivos a git hub: git add *
 
 para agrregr un mensaje al commit y poder subir los archivos: git commit -m “mensaje o comentario”
 

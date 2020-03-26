@@ -45,7 +45,7 @@ Branch master set up to track remote branch master from origin.
 Fin..
 
 
-como ingresar archivos dentro de un mismo repositorio:
+COMO AGREGAR ARCHIVOS DENTRO DEL MISMO REPOSITORIO:
 
 Como para agrgar archivos a git hub: git add *
 

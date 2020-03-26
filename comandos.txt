@@ -1,2 +1,5 @@
 ﻿Como para agrgar archivos a git hub: git add *
 
+para agrregr un mensaje al commit y poder subir los archivos: git commit -m “mensaje o comentario”
+
+para subir al repositorio: git push 
